@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(205, 203, 203);
+}
+
+.CalculationBody {
+    background-color: white;
+    padding: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+#Myresuld {
+    height: 50px;
+    width: 96%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: end;
+    font-size: xx-large;
+    border-radius: 15px;
+    border: 1px solid rgb(231, 230, 230);
+    box-shadow: 2px 2px 2px 2px;
+    background-color: rgb(224, 223, 223);
+}
+
+#input-button {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    margin-top: 10px;
+    /* padding-left: 10px; */
+}
+
+input {
+    border-radius: 70px;
+    padding: 3px;
+    font-size: 30px;
+}
+
+.item1 {
+    grid-column: 1 / span 2;
+}
